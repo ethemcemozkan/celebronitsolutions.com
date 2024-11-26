@@ -8,9 +8,6 @@ function Navbar() {
         <div className="row">
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg">
-              <NavLink className="navbar-brand" to="/">
-                Celebron IT Solutions
-              </NavLink>
               <button className="navbar-toggler" type="button">
                 <span className="navbar-toggler-icon"></span>
               </button>
@@ -25,13 +22,14 @@ function Navbar() {
                       Home
                     </NavLink>
                   </li>
+                  
                   <li className="nav-item">
                     <NavLink
                       activeClassName="menu_active"
                       className="nav-link"
-                      to="/service"
+                      to="/about"
                     >
-                      Services
+                      About Us
                     </NavLink>
                   </li>
                   <li className="nav-item">

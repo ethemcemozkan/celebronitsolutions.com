@@ -4,8 +4,8 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Home from "./Home";
 import Contact from "./Contact";
-import Service from "./Service";
 import Navbar from "./Navbar";
+import Team from "./Team"
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/service" component={Service} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/about" component={Team} />
         <Redirect to="/" />
       </Switch>
     </>
