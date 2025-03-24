@@ -14,7 +14,7 @@ function Navbar() {
                   <img
                     src={logo}
                     alt="Celebron Logo"
-                    height="30"
+                    height="45"
                     className="d-inline-block"
                   />
                   <span>Celebron IT Solutions</span>
