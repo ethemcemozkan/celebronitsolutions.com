@@ -22,7 +22,12 @@ function App() {
       <footer className="text-center text-muted py-4 border-top mt-5 small">
         <div>Celebron IT Solutions B.V.</div>
         <div>KvK: 96373644 | BTW: NL867583393B01</div>
-        <div>contact@celebronitsolutions.com</div>
+        <div
+          onClick={() => window.location.href = 'mailto:contact@celebronitsolutions.com'}
+          style={{ 'text-decoration': 'underline', cursor: 'pointer' }}
+        >
+          contact@celebronitsolutions.com
+        </div>
       </footer>
     </>
   );

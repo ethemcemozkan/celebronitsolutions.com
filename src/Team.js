@@ -22,7 +22,7 @@ export default function Team() {
                   rel="noopener noreferrer"
                   className="btn btn-outline-primary btn-sm d-flex align-items-center gap-2"
                 >
-                  <FontAwesomeIcon icon={faGlobe} /> Website
+                  <FontAwesomeIcon icon={faGlobe} /> CV
                 </a>
                 <a
                   href="https://linkedin.com/in/ethemcemozkan"
