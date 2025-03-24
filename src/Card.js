@@ -20,7 +20,7 @@ function Card({ children, title, text, imgsrc, imgclass, link, layout = "vertica
 
   return (
     <div className={` ${isHorizontal ? "container px-4" : "col-md-4 col-10"}`}>
-      <div className={`card ${isHorizontal ? "flex-row align-items-center" : ""}`}>
+      <div className={`card ${isHorizontal ? "flex-row align-items-center ps-2" : ""}`}>
         <img
           src={imgsrc}
           className={imageClass}
