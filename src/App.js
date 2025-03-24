@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga4";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import { Switch, Route, Redirect } from "react-router-dom";
@@ -7,6 +8,7 @@ import Contact from "./Contact";
 import Team from "./Team";
 import Navbar from "./Navbar";
 
+ReactGA.initialize("G-EBVX1D97GY");
 function App() {
   return (
     <>
