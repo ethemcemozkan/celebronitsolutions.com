@@ -1,5 +1,4 @@
 import React from "react";
-import web from "../src/Pictures/logo.png";
 import Card from "./Card";
 import devops from "../src/Pictures/devops.png";
 import cost from "../src/Pictures/cost.png";
