@@ -9,7 +9,7 @@ export default function Contact() {
       <h1 className="text-center mb-4">Get in Touch</h1>
       <div className="text-center">
         <p className="lead">Feel free to reach out via email or connect on LinkedIn:</p>
-        <div className="d-flex justify-content-center gap-4 mt-4">
+        <div className="d-flex flex-column align-items-center gap-3 mt-4">
           <a
             href="mailto:me@ethemcemozkan.com"
             className="btn btn-outline-primary d-flex align-items-center gap-2"
