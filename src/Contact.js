@@ -11,7 +11,7 @@ export default function Contact() {
         <p className="lead">Feel free to reach out via email or connect on LinkedIn:</p>
         <div className="d-flex flex-column align-items-center gap-3 mt-4">
           <a
-            href="mailto:me@ethemcemozkan.com"
+            href="mailto:contact@celebronitsolutions.com"
             className="btn btn-outline-primary d-flex align-items-center gap-2"
           >
             <FontAwesomeIcon icon={faEnvelope} /> contact@celebronitsolutions.com

@@ -35,9 +35,9 @@ function Home() {
               <h1 className="text-center">Our Services</h1>
             </div>
             <div className="container-fluid mb-5">
-              <div className="row">
+              <div className="row justify-content-center">
                 <div className="col-10 mx-auto">
-                  <div className="row gy-4">
+                  <div className="row gy-4 justify-content-center">
                     <Card title="DevOps Engineering" imgsrc={devops}/>
                     <Card title="Platform Engineering" imgsrc={platform} />
                     <Card title="AWS/Azure Cloud Engineering" imgsrc={cloud} />
