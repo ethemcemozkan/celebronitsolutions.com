@@ -77,6 +77,11 @@
 .description {
   width: 50%;
 }
+
+.brandtitle {
+  font-size: 1.8em !important;
+}
+
 .header-img {
     text-align: center;
 }

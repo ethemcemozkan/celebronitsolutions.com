@@ -10,7 +10,7 @@ function Navbar() {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbackground">
               <div className="container d-flex justify-content-between align-items-center">
-                <NavLink className="navbar-brand d-flex align-items-center gap-2" to="/">
+                <NavLink className="brandtitle navbar-brand d-flex align-items-center gap-2" to="/">
                   <img
                     src={logo}
                     alt="Celebron Logo"
