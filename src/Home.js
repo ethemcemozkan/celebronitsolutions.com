@@ -16,9 +16,10 @@ function Home() {
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row pt-5">
-                <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column description">
-                  <h1>
+                <div className="pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column description">
+                  <h1 className="text-center">
                     Grow your bussiness with
+                    <br/>
                     <strong className="brand-name"> Celebron IT Solutions. </strong>
                   </h1>
 
